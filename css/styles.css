@@ -50,6 +50,37 @@ section {
     padding: 20px;
 }
 
+/* Estilos Productos */
+.contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.producto {
+    width: 300px;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.producto h3 {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.producto p {
+    margin-top: 5px;
+    font-size: 16px;
+}
+
 /* Estilos form contacto */
 .formulario {
     max-width: 400px;
