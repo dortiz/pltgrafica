@@ -25,7 +25,20 @@
     </header>
 
     <section>
-        <h2>Contactate con nosotros</h2>
+        <h2>Formulario de Contacto</h2>
+        <form action="#" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+    
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpiar">
+        </form>
     </section>
 
     <footer class="border-radius">
