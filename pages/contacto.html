@@ -26,18 +26,26 @@
 
     <section>
         <h2>Formulario de Contacto</h2>
-        <form action="#" method="POST">
-            <label for="nombre">Nombre:</label>
-            <input type="text" id="nombre" name="nombre" required>
+        <form action="#" method="POST" class="formulario">
+            <div class="campo">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+            </div>
     
-            <label for="email">Email:</label>
-            <input type="email" id="email" name="email" required>
+            <div class="campo">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
     
-            <label for="mensaje">Mensaje:</label>
-            <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            <div class="campo">
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+            </div>
     
-            <input type="submit" value="Enviar">
-            <input type="reset" value="Limpiar">
+            <div class="botones">
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Limpiar">
+            </div>
         </form>
     </section>
 
