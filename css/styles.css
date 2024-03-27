@@ -50,6 +50,10 @@ section {
     padding: 20px;
 }
 
+h2 {
+    text-align: center;
+}
+
 /* Estilos Productos */
 .contenedor-productos {
     display: flex;
@@ -129,6 +133,9 @@ input[type="submit"]:hover,
 input[type="reset"]:hover {
     background-color: #45456d;
 }
+/* Estilos seccion ubicacion */
+
+
 
 /* Estilos para el pie de página */
 footer {
