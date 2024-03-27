@@ -82,11 +82,13 @@ h1, h2 {
 .producto h3 {
     margin-top: 10px;
     font-size: 20px;
+    text-align: center;
 }
 
 .producto p {
     margin-top: 5px;
     font-size: 16px;
+    text-align: center;
 }
 
 /* Estilos form contacto */
