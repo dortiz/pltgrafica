@@ -53,6 +53,7 @@ section {
 
 h1 h2 {
     text-align: center;
+    align-items: center;
 }
 
 /* Estilos Productos */
