@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Joti+One&display=swap');
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 /* border radius header y footer */
 
 .border-radius {
@@ -12,8 +17,6 @@ body {
     font-weight: 400;
     font-style: normal;
     color: antiquewhite;
-    margin: 0;
-    padding: 0;
     background-image: url(../resource/abstract-1780242_1280.png);
     background-size: cover;
     background-position: center;
