@@ -58,6 +58,23 @@ h2 {
     text-align: center;
 }
 
+/* Estilos grilla imagenes index */
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Define columnas automáticas */
+    gap: 20px; /* Espacio entre las imágenes */
+}
+
+.imagen {
+    /* Ajusta el tamaño de las imágenes según tus necesidades */
+    width: 100%;
+}
+
+.imagen img {
+    max-width: 100%;
+    height: auto; /* Para mantener la proporción */
+}
+
 /* estilos Carousel */
 .carousel-item img {
     display: block;
