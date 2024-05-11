@@ -56,8 +56,9 @@ h2 {
 
 .grid-container {
   display: grid;
-  grid-template-columns: repeat(5, 200px);
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
   justify-content: center;
+  gap: 20px;
 }
 
 .imagen {
@@ -67,7 +68,7 @@ h2 {
 }
 .imagen img {
   max-width: 100%;
-  max-height: 100%;
+  height: auto;
 }
 
 .carousel-item img {
