@@ -10,18 +10,27 @@
     position: relative;
     overflow: hidden;
 
+    a {
+        display: block; 
+        position: relative;
+        width: 100%;
+        max-width: 50%;
+    }
+
     img {
         display: block;
         margin: 0 auto;
-        max-width: 50%;
-        transition: filter 0.3s ease;
-
-        &:hover {
-            filter: grayscale(100%);
-        }
+        max-width: 100%; 
+        height: auto;
+        transition: filter 0.3s ease, opacity 0.3s ease;
     }
 
-    &::before {
+    a:hover img {
+        filter: grayscale(100%);
+        opacity: 0.7;
+    }
+
+    a::before {
         content: '';
         position: absolute;
         top: 0;
@@ -31,10 +40,11 @@
         background-color: rgba(255, 255, 255, 0.5);
         opacity: 0;
         transition: opacity 0.3s ease;
+        z-index: 1; 
+    }
 
-        &:hover {
-            opacity: 0;
-        }
+    a:hover::before {
+        opacity: 1;
     }
 }
 
