@@ -1,0 +1,23 @@
+// Typography
+@font-face {
+    font-family: "HighVoltage";
+    src: url("../../resource/typo/HighVoltage Rough.ttf");
+}
+
+body {
+    font-family: $font-family-highvoltage;
+    font-weight: 400;
+    font-style: normal;
+    color: $antiquewhite;
+    background-image: $background-image;
+    background-size: cover;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+h1,
+h2 {
+    @extend %text-center;
+}

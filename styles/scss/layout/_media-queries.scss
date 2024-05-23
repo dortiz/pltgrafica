@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+    .navbar-nav {
+        .nav-link {
+            font-size: 14px;
+            margin-left: 10px;
+        }
+    }
+
+    .navbar-brand {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar-nav {
+        .nav-link {
+            font-size: 12px;
+            margin-left: 5px;
+        }
+    }
+
+    .navbar-brand {
+        font-size: 14px;
+    }
+}

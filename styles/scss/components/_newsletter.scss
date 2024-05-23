@@ -1,0 +1,29 @@
+.newsletter {
+    font-family: $font-family-highvoltage;
+    color: $nav-link-color;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    @extend %center-content;
+
+    h3,
+    button[type="submit"] {
+        margin: 0 10px;
+    }
+
+    .form-group {
+        @extend %center-content;
+
+        button[type="submit"] {
+            background-color: $form-bg-color;
+            color: $whatsapp-color;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            @include border-radius($common-border-radius);
+
+            &:hover {
+                background-color: $form-hover-bg-color;
+            }
+        }
+    }
+}

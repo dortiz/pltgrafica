@@ -1,0 +1,59 @@
+.btn-consultar {
+    display: block;
+    margin: 0 auto;
+    background-color: $consult-bg-color;
+    color: $whatsapp-color;
+    padding: 8px 16px;
+    text-decoration: none;
+    @include border-radius(4px);
+    transition: background-color 0.3s;
+    margin-top: 10px;
+    width: fit-content;
+
+    &:hover {
+        background-color: $consult-hover-bg-color;
+    }
+}
+
+.formulario {
+    max-width: 500px;
+    margin: 0 auto;
+
+    .campo {
+        margin-bottom: 15px;
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        input[type=text],
+        input[type=email],
+        textarea {
+            @extend %full-width;
+            padding: 10px;
+            border: 1px solid #ccc;
+            @include border-radius($common-border-radius);
+        }
+    }
+
+    .botones {
+        text-align: center;
+
+        input[type=submit],
+        input[type=reset] {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: $form-bg-color;
+            color: $whatsapp-color;
+            border: none;
+            @include border-radius($common-border-radius);
+            cursor: pointer;
+            margin-right: 10px;
+
+            &:hover {
+                background-color: $form-hover-bg-color;
+            }
+        }
+    }
+}

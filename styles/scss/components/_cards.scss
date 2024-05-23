@@ -1,0 +1,17 @@
+.card {
+    @extend %full-width;
+    background-color: transparent;
+    border: none;
+
+    .card-img-top {
+        @extend %full-width;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .card-title,
+    .card-text {
+        @extend %text-center;
+        color: $antiquewhite;
+    }
+}

@@ -1,0 +1,39 @@
+// Mixins
+@mixin border-radius($radius) {
+    border-radius: $radius;
+}
+
+// Extend
+%text-center {
+    text-align: center;
+}
+
+%center-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%full-width {
+    width: 100%;
+}
+
+// Variables
+$font-family-highvoltage: "HighVoltage",
+serif;
+$antiquewhite: antiquewhite;
+$background-image: url(../../resource/abstract-1780242_1280.png);
+$whatsapp-bg-color: #25d366;
+$whatsapp-color: #fff;
+$whatsapp-size: 60px;
+$nav-link-color: #39ee51;
+$consult-bg-color: #a70fe4;
+$consult-hover-bg-color: #45456d;
+$form-bg-color: #a70fe4;
+$form-hover-bg-color: #45456d;
+$product-border-color: #f189f5;
+$product-shadow-color: rgb(247, 186, 242);
+$map-bg-image: url('../../resource/local.jpg');
+$common-padding: 10px;
+$common-margin: 20px;
+$common-border-radius: 5px;

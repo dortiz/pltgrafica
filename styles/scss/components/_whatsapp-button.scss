@@ -1,0 +1,20 @@
+.btn-whatsapp {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: $whatsapp-bg-color;
+    color: $whatsapp-color;
+    width: $whatsapp-size;
+    height: $whatsapp-size;
+    @include border-radius(50%);
+    text-align: center;
+    line-height: $whatsapp-size;
+    font-size: 24px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    z-index: 1000;
+
+    a {
+        color: $whatsapp-color;
+        text-decoration: none;
+    }
+}

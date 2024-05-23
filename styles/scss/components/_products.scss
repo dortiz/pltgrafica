@@ -1,0 +1,32 @@
+.contenedor-productos {
+    @extend %center-content;
+    flex-wrap: wrap;
+}
+
+.producto {
+    width: 250px;
+    margin: $common-margin;
+    padding: 15px;
+    border: 1px solid $product-border-color;
+    @include border-radius($common-border-radius);
+    box-sizing: border-box;
+    box-shadow: 1px 1px 5px 2px $product-shadow-color;
+
+    img {
+        @extend %full-width;
+        display: block;
+        @include border-radius($common-border-radius);
+    }
+
+    h3 {
+        margin-top: 10px;
+        font-size: 20px;
+        @extend %text-center;
+    }
+
+    p {
+        margin-top: 5px;
+        font-size: 16px;
+        @extend %text-center;
+    }
+}

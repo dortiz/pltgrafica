@@ -1,0 +1,30 @@
+.map-container {
+    position: relative;
+    @extend %text-center;
+    color: white;
+    padding-top: 56.25%;
+    height: 0;
+    overflow: hidden;
+    background-image: $map-bg-image;
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+
+    iframe {
+        position: absolute;
+        top: 20px;
+        right: 20px;
+        width: 50%;
+        height: 50%;
+    }
+
+    p {
+        position: absolute;
+        bottom: 20px;
+        left: 20px;
+        font-size: 1.5rem;
+        background-color: rgba(0, 0, 0, 0.5);
+        padding: $common-padding;
+        @include border-radius($common-border-radius);
+    }
+}

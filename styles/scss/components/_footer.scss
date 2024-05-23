@@ -1,0 +1,29 @@
+.footer-content {
+    @extend %center-content;
+
+    .redes-sociales {
+        @extend %center-content;
+
+        a {
+            margin-right: 10px;
+        }
+
+        .icono-red-social {
+            font-size: 24px;
+            color: $nav-link-color;
+
+            &:hover {
+                color: $consult-hover-bg-color;
+            }
+        }
+    }
+
+    .derechos-autor {
+        text-align: right;
+        color: $nav-link-color;
+
+        p {
+            margin: 0;
+        }
+    }
+}

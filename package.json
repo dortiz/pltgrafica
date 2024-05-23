@@ -3,9 +3,17 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "sass": "sass styles/scss/main.scss styles/css/main.css --no-source-map",
+    "watch:sass": "sass --watch styles/scss/main.scss:styles/css/main.css --no-source-map"
   },
-  "author": "",
+  "keywords": [],
+  "author": "Diego Ortiz",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "devDependencies": {
+    "sass": "^1.77.2"
+  }
 }

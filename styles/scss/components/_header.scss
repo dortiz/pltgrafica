@@ -1,0 +1,34 @@
+header {
+    background-color: transparent;
+    padding: $common-padding;
+    text-align: right;
+    display: block;
+
+    .navbar-brand {
+        a {
+            font-size: 1.5em;
+        }
+    }
+
+    .nav-item {
+        font-size: 1.5em;
+    }
+
+    nav {
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+
+            li {
+                display: inline-block;
+                margin-right: 20px;
+
+                a {
+                    color: $nav-link-color !important;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
